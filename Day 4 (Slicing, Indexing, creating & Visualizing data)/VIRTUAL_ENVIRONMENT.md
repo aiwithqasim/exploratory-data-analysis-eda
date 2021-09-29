@@ -2,15 +2,15 @@
 
 Requirement: You must have Anaconda Installed in you system.
 
--To create an environment: ``conda create --name myenv``
--When conda asks you to proceed, type ``y``: **proceed ([y]/n)**?
--To create an environment with a specific version of Python: ``conda create -n myenv python=3.6``
--To create an environment with a specific package: ``conda create -n myenv scipy`` OR ``conda create -n myenv python`` OR ``conda install -n myenv scipy``
--To create an environment with a specific version of a package: ``conda create -n myenv scipy=0.15.0`` OR ``conda create -n myenv python`` OR ``conda install -n myenv scipy=0.15.0``
--To create an environment with a specific version of Python and multiple packages: ``conda create -n myenv python=3.6 scipy=0.15.0``
--Create the environment from the ``environment.yml`` file: ``conda env create -f environment.yml``
--Activate the new environment: ``conda activate myenv``
--Verify that the new environment was installed correctly: ``conda env list`` OR ``conda info --envs``
+- To create an environment: ``conda create --name myenv``
+- When conda asks you to proceed, type ``y``: **proceed ([y]/n)**?
+- To create an environment with a specific version of Python: ``conda create -n myenv python=3.6``
+- To create an environment with a specific package: ``conda create -n myenv scipy`` OR ``conda create -n myenv python`` OR ``conda install -n myenv scipy``
+- To create an environment with a specific version of a package: ``conda create -n myenv scipy=0.15.0`` OR ``conda create -n myenv python`` OR ``conda install -n myenv scipy=0.15.0``
+- To create an environment with a specific version of Python and multiple packages: ``conda create -n myenv python=3.6 scipy=0.15.0``
+- Create the environment from the ``environment.yml`` file: ``conda env create -f environment.yml``
+- Activate the new environment: ``conda activate myenv``
+- Verify that the new environment was installed correctly: ``conda env list`` OR ``conda info --envs``
 -[For More details](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment)
 
 
