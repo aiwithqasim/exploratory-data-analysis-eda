@@ -1,17 +1,17 @@
-Essentials Commands for GitHUB
+##Essentials Commands for GitHUB
 
-First Time:
+###First Time:
 - $ git config --global user.name “John Doe” (To set Username)
 - $ git config --global user.email “john@doe.org” (To set UserEmail)
 - $ git config --global color.ui auto (To autoamte the colour Scheme)
 
-WhenEver you have to puch Material:
+###WhenEver you have to puch Material:
 - $ git status (To check status of Track & untrack files i:e Stangging area)
 - $ git add -A <b>OR</b> $ git add . <b>OR</b> $ git add fileName (To add changes to git)
 - $ git commit -m “Initial commit" (To Commit your changes)
 - $ git push -u origin <branchName> (To push data to GitHub)
 
-Branching Important:
+###Branching Important:
 - $ git branch <branch_name> (To create a branch)
 - $ git branch -d <branchName> (To delete branch )
 - $ git checkout <branch_name> (To move from one brach to another)
