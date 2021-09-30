@@ -11,6 +11,8 @@ Requirement: You must have Anaconda Installed in you system.
 - Create the environment from the ``environment.yml`` file: ``conda env create -f environment.yml``
 - Activate the new environment: ``conda activate myenv``
 - Verify that the new environment was installed correctly: ``conda env list`` OR ``conda info --envs``
+- To deactivate Environment: ``conda deactivate``
+- To reomve Enviroment: ``conda remove -- name my_env --all``
 -[For More details](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment)
 
 
