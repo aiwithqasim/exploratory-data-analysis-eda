@@ -13,6 +13,7 @@ Requirement: You must have Anaconda Installed in you system.
 - Verify that the new environment was installed correctly: ``conda env list`` OR ``conda info --envs``
 - To deactivate Environment: ``conda deactivate``
 - To reomve Enviroment: ``conda remove -- name my_env --all``
+-  To make requirement file: ``conda freeze > requirements.txt``
 -[For More details](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment)
 
 
